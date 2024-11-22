@@ -1,11 +1,14 @@
+/* Set all body font to Helvetica */
 body {
-  font-family: Helvetica;
+  font-family: Helvetica; 
 }
 
+/* Set header class=banner background-image */
 .banner {
   background-image: url("../images/pattern.jpeg");
 }
 
+/* Set <h1> header font size, weight, color, and center text alignment */
 h1 {
   font-size: 100px;
   font-weight: bold;
@@ -13,30 +16,36 @@ h1 {
   text-align: center;
 }
 
+/* Set top margin for each section to 50px */
 section {
   margin: 50px 0 0 0;
 }
 
-.brushes-heading,
-.frames-heading,
-.paint-heading {
+/* Set font size, weight, and color for each section heading */
+.brushes,
+.frames,
+.paint {
   font-size: 32px;
   font-weight: bold;
   color: white;
 }
 
-.brushes-heading {
+/* Set brushes heading background-color */
+.brushes {
   background-color: mediumspringgreen;
 }
 
-.frames-heading {
+/* Set brushes heading background-color */
+.frames {
   background-color: lightcoral;
 }
 
-.paint-heading {
+/* Set brushes heading background-color */
+.paint {
   background-color: skyblue;
 }
 
+/* Make span text bold and blue */
 span {
   font-weight: bold;
   color: blue;
